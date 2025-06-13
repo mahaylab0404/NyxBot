@@ -85,6 +85,51 @@
         "timestamp": "2025-06-13T04:37:26.430745",
         "intent": "greeting",
         "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:08:07.503280",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:08:11.340210",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:08:14.271257",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:08:17.717055",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:09:37.851691",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:09:41.688898",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:09:44.560577",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:09:47.343995",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T05:09:54.642009",
+        "intent": "greeting",
+        "success": false
       }
     ],
     "subs": 0,

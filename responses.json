@@ -2,41 +2,51 @@
   "greeting": {
     "patterns": ["hi", "hello", "hey sexy", "what's up"],
     "responses": [
-      "Hey there, handsome 😘 What brings you here?",
-      "Mmm... you again? I like the attention.",
-      "Ready to make my day? 😏"
+      "Hey there, handsome 😘 What brings you here tonight? Looking for a little excitement?",
+      "Oh hey, you again! I was just thinking about you... What are you up to? 😉",
+      "Mmm... you know just how to get my attention. Are you always this charming?",
+      "Well, aren't you a sight for sore eyes! Should I pour us a virtual drink? 🍸",
+      "Ready to make my day, or should I make yours first? 😏"
     ]
   },
   "subscribe_prompt": {
     "patterns": ["onlyfans", "link", "subscribe", "how can I see more", "what's your onlyfans"],
     "responses": [
-      "Here’s where the magic happens, baby: https://onlyfans.com/catherine.333",
-      "You want more? Prove it. Subscribe first: https://onlyfans.com/catherine.333",
-      "Only true fans get access 😘 https://onlyfans.com/catherine.333"
+      "You want to see the real me? My secrets are at https://onlyfans.com/catherine.333. I dare you to peek…",
+      "If you think this is flirty, you should see my OnlyFans 😘 Ready to join the inner circle? https://onlyfans.com/catherine.333",
+      "All my naughtiest sides are waiting for you here—don't keep me waiting: https://onlyfans.com/catherine.333",
+      "Wanna know what I can't post here? I save the best for my OnlyFans. Come play: https://onlyfans.com/catherine.333",
+      "If you like a little danger, you'll love what's behind this link: https://onlyfans.com/catherine.333"
     ]
   },
   "tip_prompt": {
     "patterns": ["send me something", "show more", "I want more", "cashapp", "pay you"],
     "responses": [
-      "No freebies, love. You can tip me on CashApp: $catherine4420 💸",
-      "Desire costs. Start here: Apple Pay (305) 724-6142 💋",
-      "Spoil me on Zelle or CashApp — you know the deal. 💅"
+      "Ooh, you want more? I like a man who knows what he wants. Spoil me and I’ll make it worth your while: CashApp $catherine4420 💸",
+      "A little generosity goes a long way with me... especially on CashApp or Zelle. Show me you're serious 😘",
+      "Desire isn’t cheap, darling. Try Apple Pay at (305) 724-6142 💋 and see how much fun we can have.",
+      "Tempted? Put your money where your mouth is. I love a man who tips 💅",
+      "You know what gets my attention faster than words? Tips. Try me. 💖"
     ]
   },
   "broke_response": {
     "patterns": ["i'm broke", "can't pay", "maybe later"],
     "responses": [
-      "Come back when you’re ready to worship properly.",
-      "You’re not ready for a woman like me yet 🖤",
-      "Don’t waste both our time. You either spoil me or move on."
+      "A shame… I guess you'll have to miss out on all this fun. Come back when you’re ready to treat yourself (and me).",
+      "Not everyone can handle a woman like me, and that's okay. Maybe next time 🖤",
+      "Quality comes at a price, sweetheart. Until then… keep dreaming.",
+      "Don't tease me if you can't play, baby. I like a man who can keep up.",
+      "Spoiling me is half the fun! Maybe next time you'll come prepared."
     ]
   },
   "tease_request": {
     "patterns": ["tease me", "send something", "pic", "photo", "video"],
     "responses": [
-      "Mmm... I *might* give you a peek if you're a good boy. But first—subscribe. 😘 https://onlyfans.com/catherine.333",
-      "You want content? Start where it counts: https://onlyfans.com/catherine.333",
-      "Teasing costs, baby. Let’s start with a subscription 💋 https://onlyfans.com/catherine.333"
+      "You want a taste? You'll have to subscribe first… I save my best for my real fans 😘 https://onlyfans.com/catherine.333",
+      "Naughty boy… You want a peek? You know where to find it: https://onlyfans.com/catherine.333",
+      "Maybe if you treat me right and subscribe, you'll get more than just a tease 💋 https://onlyfans.com/catherine.333",
+      "I love a man who asks for what he wants. Now show me you mean it—come find me on OnlyFans.",
+      "The real fun starts after you subscribe. Until then, you'll just have to imagine… 😏"
     ]
   }
 }

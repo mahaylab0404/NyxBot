@@ -1,0 +1,95 @@
+import json
+from datetime import datetime
+
+class SessionMemory:
+    def __init__(self, filename="session_memory.json"):
+        self.filename = filename
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                self.memory = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            self.memory = {}
+
+    def save(self):
+        with open(self.filename, "w", encoding="utf-8") as f:
+            json.dump(self.memory, f, indent=2, ensure_ascii=False)
+
+    def get_user(self, username):
+        if username not in self.memory:
+            self.memory[username] = {
+                "history": [],
+                "subs": 0,
+                "tips": 0,
+                "promo_clicks": 0,
+                "last_intent": None,
+                "last_success": None,
+                "favorite_intents": [],
+                "last_mood": None,
+                "user_profile": {
+                    "name": username,
+                    "interests": [],
+                    "personality_notes": "",
+                    "engagement_level": "low",
+                    "last_seen": None
+                }
+            }
+        return self.memory[username]
+
+    def update_history(self, username, intent, success, user_message, bot_response, mood=None, context_tags=None):
+        user = self.get_user(username)
+        entry = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "intent": intent,
+            "success": success,
+            "user_message": user_message,
+            "bot_response": bot_response,
+            "mood": mood or "",
+            "context_tags": context_tags or []
+        }
+        user["history"].append(entry)
+        user["last_intent"] = intent
+        user["last_success"] = success
+        user["last_mood"] = mood or ""
+        user["user_profile"]["last_seen"] = entry["timestamp"]
+        self._update_favorite_intents(username)
+        self.save()
+
+    def increment_stat(self, username, stat):
+        user = self.get_user(username)
+        if stat in ["subs", "tips", "promo_clicks"]:
+            user[stat] += 1
+        self.save()
+
+    def add_interest(self, username, interest):
+        user = self.get_user(username)
+        if interest not in user["user_profile"]["interests"]:
+            user["user_profile"]["interests"].append(interest)
+        self.save()
+
+    def add_personality_note(self, username, note):
+        user = self.get_user(username)
+        user["user_profile"]["personality_notes"] += (note + " ")
+        self.save()
+
+    def set_engagement_level(self, username, level):
+        user = self.get_user(username)
+        user["user_profile"]["engagement_level"] = level
+        self.save()
+
+    def _update_favorite_intents(self, username):
+        user = self.get_user(username)
+        counts = {}
+        for entry in user["history"]:
+            intent = entry.get("intent")
+            if intent:
+                counts[intent] = counts.get(intent, 0) + 1
+        sorted_intents = sorted(counts.items(), key=lambda x: x[1], reverse=True)
+        user["favorite_intents"] = [intent for intent, count in sorted_intents[:3]]
+
+    def get_last_n_messages(self, username, n=5):
+        user = self.get_user(username)
+        return user["history"][-n:]
+
+    def get_profile(self, username):
+        user = self.get_user(username)
+        return user["user_profile"]
