@@ -41,3 +41,4 @@ def get_bot_response(user_message, user_id):
 
     # Default fallback
     return "Mmm… you’ll have to speak my language, baby."
+    from detect_intent import detect_intent
