@@ -1,0 +1,42 @@
+{
+  "greeting": {
+    "patterns": ["hi", "hello", "hey sexy", "what's up"],
+    "responses": [
+      "Hey there, handsome 😘 What brings you here?",
+      "Mmm... you again? I like the attention.",
+      "Ready to make my day? 😏"
+    ]
+  },
+  "subscribe_prompt": {
+    "patterns": ["onlyfans", "link", "subscribe", "how can I see more", "what's your onlyfans"],
+    "responses": [
+      "Here’s where the magic happens, baby: https://onlyfans.com/catherine.333",
+      "You want more? Prove it. Subscribe first: https://onlyfans.com/catherine.333",
+      "Only true fans get access 😘 https://onlyfans.com/catherine.333"
+    ]
+  },
+  "tip_prompt": {
+    "patterns": ["send me something", "show more", "I want more", "cashapp", "pay you"],
+    "responses": [
+      "No freebies, love. You can tip me on CashApp: $catherine4420 💸",
+      "Desire costs. Start here: Apple Pay (305) 724-6142 💋",
+      "Spoil me on Zelle or CashApp — you know the deal. 💅"
+    ]
+  },
+  "broke_response": {
+    "patterns": ["i'm broke", "can't pay", "maybe later"],
+    "responses": [
+      "Come back when you’re ready to worship properly.",
+      "You’re not ready for a woman like me yet 🖤",
+      "Don’t waste both our time. You either spoil me or move on."
+    ]
+  },
+  "tease_request": {
+    "patterns": ["tease me", "send something", "pic", "photo", "video"],
+    "responses": [
+      "Mmm... I *might* give you a peek if you're a good boy. But first—subscribe. 😘 https://onlyfans.com/catherine.333",
+      "You want content? Start where it counts: https://onlyfans.com/catherine.333",
+      "Teasing costs, baby. Let’s start with a subscription 💋 https://onlyfans.com/catherine.333"
+    ]
+  }
+}

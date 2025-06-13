@@ -1,0 +1,93 @@
+{
+  "mbalen": {
+    "history": [
+      {
+        "timestamp": "2025-06-13T04:24:27.798482",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:24:34.654224",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:24:37.814792",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:24:43.564460",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:19.563668",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:19.575023",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:21.742061",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:27.628560",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:32.871367",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:28:40.026417",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:36:52.607506",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:36:53.259032",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:36:55.170192",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:36:57.643821",
+        "intent": "unknown",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:37:03.601619",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:37:09.076653",
+        "intent": "greeting",
+        "success": false
+      },
+      {
+        "timestamp": "2025-06-13T04:37:26.430745",
+        "intent": "greeting",
+        "success": false
+      }
+    ],
+    "subs": 0,
+    "tips": 0
+  }
+}
